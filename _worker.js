@@ -3,12 +3,12 @@ import { connect } from "cloudflare:sockets";
 // Variables
 const rootDomain = "my.id"; // Ganti dengan domain utama kalian
 const serviceName = "zegion"; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiKey = "297dff169d7666880c2fff2b33186669b458b"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "rezacatur@gmail.com"; // Ganti dengan email yang kalian gunakan
 const accountID = "zegion.my.id"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "18e7942ab86f00e2831728a9adfe191a"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "";
+let proxyIP = "43.165.197.187";
 let cachedProxyList = [];
 
 // Constant
